@@ -1,0 +1,56 @@
+{
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12.5,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderWhitespace": "all",
+  "editor.cursorBlinking": "expand",
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+
+  "liveServer.settings.multiRootWorkspaceName": "",
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "git.suggestSmartCommit": false,
+  "terminal.integrated.cursorBlinking": true,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  }
+}
