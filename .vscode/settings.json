@@ -3,53 +3,64 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
 
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "Cascadia Code, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 12.5,
-  "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.renderWhitespace": "all",
   "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
   "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
   "editor.guides.bracketPairs": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.bracketPairColorization.enabled": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.suggestSmartCommit": false,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.cursorBlinking": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
   "liveServer.settings.multiRootWorkspaceName": "",
   "liveServer.settings.donotShowInfoMsg": true,
 
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-
-  "git.suggestSmartCommit": false,
-  "terminal.integrated.cursorBlinking": true,
-
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
   "emmet.triggerExpansionOnTab": true,
   "emmet.syntaxProfiles": {
     "javascript": "html",
     "typescript": "html"
   },
-
   "emmet.includeLanguages": {
     "javascript": "html",
     "typescript": "html"
   },
-
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
-
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
   },
-
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "autoprefixer.options": {
     "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
   }
