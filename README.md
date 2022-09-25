@@ -1,25 +1,24 @@
-# Basic vscode settings.json
+# The complete vscode configuration
 
-Customized configuration to start with Visual Studio Code
+> Correct settings.json to start with Visual Studio Code.
 
 ## Appendix
 
-Advanced feauture tips that you can't find by default to help us with the syntax languages when we are writing code. This configuration helps in everything you write, not necessary install complex plugins or other confused settings:
+Advanced feautures and tips that you can't find by default to help us with the syntax languages when we are writing code. This configuration helps in everything you write, not necessary install complex plugins or other confused settings:
 
 Avoid conflicts totally, improvements on save, custom formatter, integrated languages with emmet, avoid conflicts between extensions, avoid obsolet extensions, structured autocomplete, optimization and compatibility.
 
 ## Features
 
-- `Basic configuration`
-- `One Dark pro Theme`
-- `Material icons Theme`
-
-- `Optimal font-size`
-- `Font-family 'Cascadia Code'`
-- `Avoid conflict when formatting`
-- `Saving changes after delay`
+- `Complete starter configuration`
+- `Theme: One Dark pro Theme`
+- `Icons: Material icons Theme`
+- `Font-family: 'Cascadia Code'`
+- `Optimal font-size by default`
+- `Save changes after delay or after refresh`
+- `Prettier and ESlint correct configuration`
+- `Avoid conflict when formatting or saving`
 - `Brackets Pair Colorizer without plugin`
-
 - `Browsers: Compatibility last 4 versions`
 
 <br>
@@ -27,9 +26,8 @@ Avoid conflicts totally, improvements on save, custom formatter, integrated lang
 ## Screenshots
 
 <p align="">
-  <img src="https://media.giphy.com/media/hbphNbxQCY9l1r5zCu/giphy.gif" title="Vscode settings.json" alt=" A settings.json preview ">
+  <img src="https://media.giphy.com/media/hbphNbxQCY9l1r5zCu/giphy.gif" title="Vscode settings.json features" alt=" A settings.json preview ">
 </p>
-
 
 ## Demo
 
@@ -47,38 +45,60 @@ Avoid conflicts totally, improvements on save, custom formatter, integrated lang
 
 Depending on your platform, workspace setting file is located under the `~/.vscode` folder in your project, and the user settings file usually is located by default here:
 
-- Windows %APPDATA%\Code\User\settings.json
-- Mac $HOME/Library/Application Support/Code/User/settings.json
-- Linux $HOME/.config/Code/User/settings.json
+> - Windows %APPDATA%\Code\User\settings.json
+> - Mac $HOME/Library/Application Support/Code/User/settings.json
+> - Linux $HOME/.config/Code/User/settings.json
+
+<br>
 
 ## Usability and implementation
 
-- Replace your settings.json with the settings.json from this repository.
+- Replace your settings.json in visual studio code for this one and check the usability..
 - Install the extension 'manager extension': "extensions/install/manager-extension".
 - Run this command in your vscode to install each necessary extension directly from this settings.json:
 
-(Mayus. + command + P) >Install Missing Extensions 
+  > (Shift + command + P) and look for with (>)
+  >
+  > > Install Missing Extensions
 
 - Select your folder icons: File > Preferences > File Icon Theme > "material-icon-theme"
 - Close or Reopen Visual Studio Code to activate extensions
 
-(We can change, edit or replace something easily now).
+(Now, we can change, edit or replace something easily).
 
 <br>
 
-## Contributions
+## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome.
 
+See [CONTRIBUTING](.github/CONTRIBUTING.md) for ways to get started, you can colaborate addings features to improve the repository or help to fix anything via pull request.
 
-See `contributing.md` for ways to get started, you can colaborate addings features to improve this setting json with pull request.
+Please adhere to this project [CODE_OF_CONDUCT](.github/CODE_OF_CONDUCT.md), examples of behavior that contributes to a positive environment for our community and adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
 
-[Author]: `Gonzalo Cugiani` Amsterdam, NL
+> **[Author]**: Gonzalo Cugiani (Amsterdam, North Holland, Netherlands)
+>
+> - [www.github.com/github.com/escummy](https://github.com/escummy)
+> - [www.linkedin.com/in/gonzalocugiani](https://linkedin.com/in/gonzalocugiani)
 
-Please adhere to this project's `code of conduct`.
+<br>
 
-## License
+## About Licenses
 
-License for this repository [[MIT License]](/license)
+A licensor may grant a license under intellectual property laws to authorize a use (such as copying software or using a patented invention) to a licensee, sparing the licensee from a claim of infringement brought by the licensor.
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/escummy/vscode-settings-json/blob/main/LICENSE)
+License used for this repository <a href="https://github.com/escummy/vscode-settings-json/blob/main/LICENSE">`[`MIT License`]`</a>
+
+<!-- #### Hashtags
+
+#webpack #starter #initialfiles #developmentmode #productionmode #packagejson #webpackconfig #babelconfig #dev #prod #npmstart #yarnstart #build #builddev #buildprod #github #badges -->
+
+<br><br>
+
+---
+
+<p align="center">. . .</p>
+
+<p align="center">This <i>README</i> file was updated</br>Last refresh: Thursday, 27 January, 20:02 CET<br/></p>
+
+<br><br><br>
