@@ -137,9 +137,6 @@ https://www.contributor-covenant.org/translations
 
 <p align="center">. . .</p>
 
-<p align="center">This <i>CODE OF CONDUCT</i> file was updated <b>correctly</b>!</br>Last refresh: Sunday, 30 January, 14:22 CET<br/></p>
-<br>
+<p align="center">This <i>CODE OF CONDUCT</i> file was updated</br>Last refresh: Sunday, 30 January, 14:22 CET<br/></p>
 
-<p align="center"><img alt="License" src="https://img.shields.io/github/license/escummy/vscode-settings-json?style=flat-square&labelColor=343b41"/> <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg"/></p>
-
-<br><br><br>aa
+<br><br><br>
