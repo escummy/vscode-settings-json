@@ -1,67 +1,72 @@
 {
-  "workbench.colorTheme": "One Dark Pro Flat",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.settings.editor": "json",
-
+  "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Cascadia Code, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 12.5,
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
   "editor.renderWhitespace": "all",
-  "editor.cursorBlinking": "expand",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.suggestSelection": "first",
+  "editor.semanticHighlighting.enabled": true,
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true,
-  "editor.guides.bracketPairs": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "git.suggestSmartCommit": false,
-
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500,
-  
+  "git.suggestSmartCommit": false,
   "redhat.telemetry.enabled": true,
   "terminal.integrated.cursorBlinking": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "rapidapi.terminalLink.enabled": false,
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  },
 
-  "liveServer.settings.multiRootWorkspaceName": "",
-  "liveServer.settings.donotShowInfoMsg": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "emmet.includeLanguages": {
+    "markdown": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": true
+  },
 
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
     "editor.formatOnSave": true
   },
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.syntaxProfiles": {
-    "javascript": "html",
-    "typescript": "html"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "html",
-    "typescript": "html"
-  },
-  "[javascript]": {
+  "[javascript, javascriptreact, typescript, scss, jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.formatOnSave": true
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "autoprefixer.options": {
-    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+    "editor.formatOnSave": false
   }
 }
