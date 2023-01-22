@@ -1,4 +1,12 @@
 {
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+
+  "git.suggestSmartCommit": false,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.cursorBlinking": true,
+
   "editor.cursorBlinking": "expand",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Cascadia Code, monospace",
@@ -22,17 +30,14 @@
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500,
-  "git.suggestSmartCommit": false,
-  "redhat.telemetry.enabled": true,
-  "terminal.integrated.cursorBlinking": true,
-  "workbench.colorTheme": "One Dark Pro Flat",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.settings.editor": "json",
-  "rapidapi.terminalLink.enabled": false,
-  "autoprefixer.options": {
-    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": false
   },
 
   "eslint.alwaysShowStatus": true,
@@ -54,12 +59,6 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  "files.exclude": {
-    "**/*.js.map": {
-      "when": "$(basename)"
-    },
-    "**/node_modules": true
-  },
 
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
@@ -68,5 +67,9 @@
   "[javascript, javascriptreact, typescript, scss, jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
+  },
+
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
   }
 }
