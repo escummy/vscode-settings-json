@@ -17,6 +17,7 @@ Avoid conflicts totally, improvements on save, custom formatter, integrated lang
 - `Optimal font-size by default`
 - `Save changes after delay or after refresh`
 - `Prettier and ESlint correct configuration`
+- `Proper configuration for json and Python`
 - `Avoid conflict when formatting or saving`
 - `Brackets Pair Colorizer without plugin`
 - `Browsers: Compatibility last 4 versions`
@@ -26,7 +27,7 @@ Avoid conflicts totally, improvements on save, custom formatter, integrated lang
 ## Screenshots
 
 <p align="">
-  <img src="https://media.giphy.com/media/hbphNbxQCY9l1r5zCu/giphy.gif" title="Vscode settings.json features" alt=" A settings.json preview ">
+  <img src="https://media.giphy.com/media/hbphNbxQCY9l1r5zCu/giphy.gif" width="95%" title="Vscode settings.json features" alt=" A settings.json preview ">
 </p>
 
 ## Demo
@@ -38,7 +39,7 @@ Avoid conflicts totally, improvements on save, custom formatter, integrated lang
 <br>
 
 <p align="">
-  <img src="https://media.giphy.com/media/Cnu8lZ2PpdTsSXqRPu/giphy.gif" title="Emmet with typescript" alt="Demostration of Emmet integrated in typescript">
+  <img src="https://media.giphy.com/media/Cnu8lZ2PpdTsSXqRPu/giphy.gif" width="95%" title="Emmet with typescript" alt="Demostration of Emmet integrated in typescript">
 </p><br>
 
 ## Settings File Locations
